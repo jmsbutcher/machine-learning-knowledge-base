@@ -6,7 +6,7 @@ March 28, 2021
 by James Butcher
 jmsbutcher1576@gmail.com
 
-Access the site here: <a href="https://ml-knowledgebase.herokuapp.com/">https://ml-knowledgebase.herokuapp.com/</a>
+Access the site here: <a href="https://ml-knowledgebase.herokuapp.com/" target="_blank">https://ml-knowledgebase.herokuapp.com/</a>
 
 ## Overview:
 
@@ -23,15 +23,11 @@ James's Machine Learning Knowledge Base
 
 This was my first web app. The whole basic structure was built by following this YouTube video:
 
-   Python Website Full Tutorial - Flask, Authentication, Databases & More
-     by Tech With Tim - Feb 1, 2021
-     https://www.youtube.com/watch?v=dam0GPOAvVI&list=PLwGZ7X2gMChQbGLrYP57YW2S_lrknkw1_&index=57
+- <i>Python Website Full Tutorial - Flask, Authentication, Databases & More by Tech With Tim</i> Feb 1, 2021 https://www.youtube.com/watch?v=dam0GPOAvVI&list=PLwGZ7X2gMChQbGLrYP57YW2S_lrknkw1_&index=57
 
 I deployed the app to the web using Heroku, and by following this Youtube video:
 
-   Push Flask Apps To Heroku For Webhosting - Python and Flask #11
-     by Codemy.com - Jun 2, 2020
-     https://www.youtube.com/watch?v=Li0Abz-KT78
+- <i>Push Flask Apps To Heroku For Webhosting - Python and Flask #11</i> by Codemy.com - Jun 2, 2020 https://www.youtube.com/watch?v=Li0Abz-KT78
 
 My introduction to the subject of ontology, knowledge graphs, and RDF came from the online course I took
 for my MCS - Masters of Computer Science degree from ASU on Coursera, taken in Spring A 2021:
@@ -70,9 +66,9 @@ for my MCS - Masters of Computer Science degree from ASU on Coursera, taken in S
 
 <br />
 
-<a href="https://ml-knowledgebase.herokuapp.com/knowledge-base"><h4>Add/Remove Triples from Knowledge Base</h4></a>
+## Add/Remove Triples from Knowledge Base
 
-<p>The "Knowledge Base" page lists all the triples currently in the knowledge base.</p>
+<p>The <a href="https://ml-knowledgebase.herokuapp.com/knowledge-base" target="_blank">Knowledge Base</a> page lists all the triples currently in the knowledge base.</p>
 <p><b>To add a triple:</b> Enter a subject, a predicate, and an object in the corresponding input fields and click enter.
 Be sure to use consistent spelling when entering multiple triples containing the same thing. All inputs are case-sensitive.</p>
 <p><b>To delete a triple:</b> Simply scroll down to the triple you want to delete and click the 'X' on the right.
@@ -80,9 +76,9 @@ Be sure to use consistent spelling when entering multiple triples containing the
 
 <br />
 
-<a href="https://ml-knowledgebase.herokuapp.com/recommender"><h4>Recommender Tool</h4></a>
+## Recommender Tool
 
-<p>The "Recommender" page lets you select the application you are interested in and then generates a neat list of relevant
+<p>The <a href="https://ml-knowledgebase.herokuapp.com/recommender" target="_blank">Recommender</a> page lets you select the application you are interested in and then generates a neat list of relevant
     machine learning methods and information about each one, including their advantages and disadvantages. 
 </p>
 <p>It does this by querying the knowledge base for all subjects that meet the criteria: [subject] --> can do --> [selected application],
@@ -91,9 +87,9 @@ Be sure to use consistent spelling when entering multiple triples containing the
 
 <br />
 
-<a href="https://ml-knowledgebase.herokuapp.com/query">## Custom Queries</a>
+## Custom Queries
 
-<p>The "Custom Query" page lets you examine the knowledge base in more detail.</p>
+<p>The <a href="https://ml-knowledgebase.herokuapp.com/query" target="_blank">Custom Query</a> page lets you examine the knowledge base in more detail.</p>
 <p>Select the subject, predicate, or object you are interested in while leaving the other fields with the default '?'
     selection acting as a wildcard, and the program will fetch all the triples that meet the criteria.
 </p>
