@@ -70,9 +70,11 @@ for my MCS - Masters of Computer Science degree from ASU on Coursera, taken in S
 
 <p>The <a href="https://ml-knowledgebase.herokuapp.com/knowledge-base" target="_blank">Knowledge Base</a> page lists all the triples currently in the knowledge base.</p>
 <p><b>To add a triple:</b> Enter a subject, a predicate, and an object in the corresponding input fields and click enter.
-Be sure to use consistent spelling when entering multiple triples containing the same thing. All inputs are case-sensitive.</p>
+Be sure to use consistent spelling when entering multiple triples containing the same thing. Some inputs are case-sensitive.</p>
 <p><b>To delete a triple:</b> Simply scroll down to the triple you want to delete and click the 'X' on the right.
 <p>Be sure to click "Save" if you want to save your changes to the graph file.</p>
+
+<img src="https://github.com/jmsbutcher/machine-learning-knowledge-base/blob/master/images/knowledgebase_page1.PNG">
 
 <br />
 
@@ -85,6 +87,8 @@ Be sure to use consistent spelling when entering multiple triples containing the
     and then gathers all other information on that subject.
 </p>
 
+<img src="https://github.com/jmsbutcher/machine-learning-knowledge-base/blob/master/images/recommender_page1.PNG">
+
 <br />
 
 ## Custom Queries
@@ -93,11 +97,16 @@ Be sure to use consistent spelling when entering multiple triples containing the
 <p>Select the subject, predicate, or object you are interested in while leaving the other fields with the default '?'
     selection acting as a wildcard, and the program will fetch all the triples that meet the criteria.
 </p>
+
+<img src="https://github.com/jmsbutcher/machine-learning-knowledge-base/blob/master/images/query_page1.PNG">
+
 <p>For example, if you wanted to see all of the different applications in the knowledge base, you would
     select '?' for the subject, "is a" for the predicate, and "application" for the object. Similarly, if 
     you wanted to see all of the things k-means clustering can do, you would select "k-means clustering" for 
     the subject, "can do" for the predicate, and '?' for the object.
 </p>
+
+<img src="https://github.com/jmsbutcher/machine-learning-knowledge-base/blob/master/images/query_page2.PNG">
 
 <br />
 <br />
