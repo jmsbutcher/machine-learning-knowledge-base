@@ -3,7 +3,10 @@
 ### A web app for managing and accessing my personally-curated collection of machine learning knowledge, encoded as an RDF knowledge graph
 Version 1.0
 March 28, 2021
-by James Butcher - jmsbutcher1576@gmail.com
+by James Butcher
+jmsbutcher1576@gmail.com
+
+Access the site here: <a href="https://ml-knowledgebase.herokuapp.com/">https://ml-knowledgebase.herokuapp.com/</a>
 
 ## Overview:
 
@@ -67,7 +70,7 @@ for my MCS - Masters of Computer Science degree from ASU on Coursera, taken in S
 
 <br />
 
-<a href="/knowledge-base"><h4>Add/Remove Triples from Knowledge Base</h4></a>
+<a href="https://ml-knowledgebase.herokuapp.com/knowledge-base"><h4>Add/Remove Triples from Knowledge Base</h4></a>
 
 <p>The "Knowledge Base" page lists all the triples currently in the knowledge base.</p>
 <p><b>To add a triple:</b> Enter a subject, a predicate, and an object in the corresponding input fields and click enter.
@@ -77,7 +80,7 @@ Be sure to use consistent spelling when entering multiple triples containing the
 
 <br />
 
-<a href="/recommender"><h4>Recommender Tool</h4></a>
+<a href="https://ml-knowledgebase.herokuapp.com/recommender"><h4>Recommender Tool</h4></a>
 
 <p>The "Recommender" page lets you select the application you are interested in and then generates a neat list of relevant
     machine learning methods and information about each one, including their advantages and disadvantages. 
@@ -88,7 +91,7 @@ Be sure to use consistent spelling when entering multiple triples containing the
 
 <br />
 
-<a href="/query"><h4>Custom Queries</h4></a>
+<a href="https://ml-knowledgebase.herokuapp.com/query">## Custom Queries</a>
 
 <p>The "Custom Query" page lets you examine the knowledge base in more detail.</p>
 <p>Select the subject, predicate, or object you are interested in while leaving the other fields with the default '?'
