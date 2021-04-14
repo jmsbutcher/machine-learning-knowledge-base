@@ -2,17 +2,30 @@
 
 mykb:autoencoder mykb:can_do mykb:anomaly_detection,
         mykb:dimensionality_reduction,
+        mykb:feature_extraction,
         mykb:feature_learning,
         mykb:image_compression,
         mykb:machine_translation,
         mykb:noise_reduction,
         mykb:speech_recognition ;
     mykb:description "An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner. - Wikipedia;   It learns good representations in the hidden layer, capturing the essence of the input" ;
-    mykb:has_advantage "Accomplishes roughly the same thing as PCA, but with nonlinearity" ;
+    mykb:has_advantage mykb:deep_autoencoders_are_much_better_than_PCA_at_extracting_non-linear_features,
+        "Accomplishes roughly the same thing as PCA, but with nonlinearity" ;
     mykb:has_disadvantage mykb:requires_training ;
     mykb:is_a mykb:method ;
     mykb:link "https://en.wikipedia.org/wiki/Autoencoder" ;
     mykb:subclass_of mykb:unsupervised_learning .
+
+mykb:autoregressive_models mykb:can_do mykb:feature_extraction,
+        mykb:image_generation ;
+    mykb:description "Used to describe certain time-varying processes. Specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term). -Wikipedia;  Given examples from a distribution, generate samples belonging to the same distribution. -CSE598" ;
+    mykb:has_advantage "can explicitly estimate likelihood p(x)",
+        "pretty good results for generation",
+        "simple and stable training process" ;
+    mykb:has_disadvantage "cannot provide low-dimensional latent space",
+        "inefficient at generation because it is a sequential process, which cannot be parallelized" ;
+    mykb:is_a mykb:method ;
+    mykb:link "https://en.wikipedia.org/wiki/Autoregressive_model" .
 
 mykb:bayesian_network mykb:can_do mykb:anomaly_detection,
         mykb:inference,
@@ -143,6 +156,7 @@ mykb:naive_bayes mykb:can_do mykb:classification,
 
 mykb:principal_component_analysis mykb:can_do mykb:data_analysis,
         mykb:dimensionality_reduction,
+        mykb:feature_extraction,
         mykb:feature_learning ;
     mykb:description "PCA is the process of computing the principal components (the axes with the highest variance - in other words, the most descriptive directions) and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest." ;
     mykb:has_advantage "Generates *new* features that may be highly descriptive of the data, as opposed to mere feature selection -ASU CSE 575" ;
@@ -211,6 +225,8 @@ mykb:graph_clustering mykb:is_a mykb:application .
 
 mykb:image_compression mykb:is_a mykb:application .
 
+mykb:image_generation mykb:is_a mykb:application .
+
 mykb:inference mykb:is_a mykb:application .
 
 mykb:price_prediction mykb:is_a mykb:application .
@@ -224,6 +240,8 @@ mykb:dimensionality_reduction mykb:is_a mykb:application .
 mykb:feature_importance mykb:is_a mykb:application .
 
 mykb:noise_reduction mykb:is_a mykb:application .
+
+mykb:feature_extraction mykb:is_a mykb:application .
 
 mykb:feature_learning mykb:is_a mykb:application .
 
