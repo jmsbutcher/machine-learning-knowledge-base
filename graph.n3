@@ -71,6 +71,15 @@ mykb:decision_tree mykb:can_do mykb:capture_interactions_in_data,
     mykb:is_a mykb:method ;
     mykb:link "https://en.wikipedia.org/wiki/Decision_tree" .
 
+mykb:generative_adversarial_network mykb:can_do mykb:image_generation ;
+    mykb:description "Consists of two neural networks that compete with each other: The generator, which tries to generate realistic images from noise, and the discriminator, which tries to tell whether a given image is real or fake. There are thousands of papers on GANs in the literature and hundreds of applications -ASU CSE598" ;
+    mykb:has_advantage "very realistic images" ;
+    mykb:has_disadvantage "can be notoriously hard to optimize",
+        "does not provide the inference p(x) - the probability of the input image x" ;
+    mykb:is_a mykb:method ;
+    mykb:link "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+        "https://www.coursera.org/learn/cse598deeplearninginvisualcomputing/lecture/gAijA/generative-adversarial-networks-gans" .
+
 mykb:k-means_clustering mykb:can_do mykb:data_clustering,
         mykb:feature_learning,
         mykb:recommendation ;
@@ -225,8 +234,6 @@ mykb:graph_clustering mykb:is_a mykb:application .
 
 mykb:image_compression mykb:is_a mykb:application .
 
-mykb:image_generation mykb:is_a mykb:application .
-
 mykb:inference mykb:is_a mykb:application .
 
 mykb:price_prediction mykb:is_a mykb:application .
@@ -238,6 +245,8 @@ mykb:video_recognition mykb:is_a mykb:application .
 mykb:dimensionality_reduction mykb:is_a mykb:application .
 
 mykb:feature_importance mykb:is_a mykb:application .
+
+mykb:image_generation mykb:is_a mykb:application .
 
 mykb:noise_reduction mykb:is_a mykb:application .
 
