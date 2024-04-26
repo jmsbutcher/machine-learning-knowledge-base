@@ -6,7 +6,7 @@ March 28, 2021
 by James Butcher
 jmsbutcher1576@gmail.com
 
-Access the site here: <a href="https://ml-knowledgebase.herokuapp.com/" target="_blank">https://ml-knowledgebase.herokuapp.com/</a>
+Access the site here: [https://aikb-bfe2tw67tq-nn.a.run.app/](https://aikb-bfe2tw67tq-nn.a.run.app/)
 
 ## Overview:
 
