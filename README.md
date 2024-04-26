@@ -6,7 +6,9 @@ March 28, 2021
 by James Butcher
 jmsbutcher1576@gmail.com
 
-Access the site here: [https://aikb-bfe2tw67tq-nn.a.run.app/](https://aikb-bfe2tw67tq-nn.a.run.app/)
+Access the site here: <a href="https://aikb-bfe2tw67tq-nn.a.run.app/" target="_blank" rel="noopener">ML Knowledge Base</a>
+
+[https://aikb-bfe2tw67tq-nn.a.run.app/](https://aikb-bfe2tw67tq-nn.a.run.app/)
 
 ## Overview:
 
