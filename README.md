@@ -1,4 +1,4 @@
-# machine-learning-knowledge-base
+[# machine-learning-knowledge-base
 
 ### A web app for managing and accessing my personally-curated collection of machine learning knowledge, encoded as an RDF knowledge graph
 Version 1.0
@@ -117,3 +117,4 @@ Be sure to use consistent spelling when entering multiple triples containing the
 
 <p>&copy; <i>James Butcher 2021 - jmsbutcher1567@gmail.com</i></p>
 
+](https://www.linkedin.com/in/james-butcher-275a2080/)
